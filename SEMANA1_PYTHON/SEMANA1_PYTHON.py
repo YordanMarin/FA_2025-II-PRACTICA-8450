@@ -5,6 +5,9 @@
     print(f"\n{nombre}, bienvenido a FA de {carrera}") 
 
 def ejer2():
+    print("\"\"Yordan\"\"")
+
+def ejer3():
     x = int(input("Ingrese el valor de x: "))
     y = int(input("Ingrese el valor de y: "))
 
