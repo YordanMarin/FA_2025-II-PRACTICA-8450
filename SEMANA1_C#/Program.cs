@@ -10,7 +10,7 @@ namespace SEMANA1_C_
   {
     static void Main(string[] args)
     {
-      ejer2();
+      ejer5();
       Console.ReadKey();
     }
 
@@ -48,11 +48,29 @@ namespace SEMANA1_C_
     }
     static void ejer4()
     {
+      Console.Write("Ingrese un número decimal: ");
+      double num = Convert.ToDouble(Console.ReadLine());
 
+      double raiz2 = Math.Sqrt(num);
+      int redo = (int)Math.Round(num,0);
+      double cubo = Math.Pow(num, 3);
+      double raiz3 = Math.Pow(num, 1/3d);
+
+      Console.WriteLine("Raiz 2: " + raiz2);
+      Console.WriteLine("Redodenado: " + redo);
+      Console.WriteLine("Al cubo: " + cubo);
+      Console.WriteLine("Raiz3: " + raiz3);
     }
     static void ejer5()
     {
+      Console.Write("Ingrese número: ");
+      string num = Console.ReadLine();
 
+      int entero = int.Parse(num);
+      double deci = double.Parse(num);
+
+      Console.WriteLine("Resto: "+(entero%2));
+      Console.WriteLine("División: " + (deci / 3));
     }
     static void ejer6()
     {
